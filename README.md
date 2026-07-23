@@ -7,7 +7,8 @@
 
 > **Full professional plan:** [`PRODUCT_AND_SALES_PLAYBOOK.md`](./PRODUCT_AND_SALES_PLAYBOOK.md)  
 > **Ready-to-copy Gumroad texts:** [`GUMROAD_LISTINGS.md`](./GUMROAD_LISTINGS.md)  
-> **Bilingual landing page:** [`landing/index.html`](./landing/index.html)
+> **Bilingual landing page:** [`landing/index.html`](./landing/index.html)  
+> **Turkish project description:** [`PROJE_ACIKLAMASI_TR.md`](./PROJE_ACIKLAMASI_TR.md)
 
 ## Notion Templates (ready to duplicate & sell)
 
