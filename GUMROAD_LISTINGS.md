@@ -1,16 +1,23 @@
-# Gumroad Ready Listings – Copy & Paste
+# Gumroad Ready Listings – Copy & Paste (SEO Optimized)
 
-All descriptions are written for high conversion (2026 best practices).
+All titles, descriptions and tags are optimized for Gumroad Discover + search (2026).
 
 ---
 
 ## 1. Freelance Project OS
 
-**Title**  
-Freelance Project OS | Notion Template – Client CRM + Projects + Invoices + Tasks
+**Title**
+```
+Freelance Project OS | Notion Template – Client CRM + Projects + Invoices
+```
 
 **Price**  
 $24 (launch) → later $29
+
+**Tags**
+```
+notion template, freelance, client crm, project management, invoice tracker, freelance tools, productivity, notion, digital product, crm template, freelancer, project tracker
+```
 
 **Description**
 
@@ -39,11 +46,18 @@ Instant delivery via Notion duplicate link.
 
 ## 2. Content Calendar + AI Writer OS
 
-**Title**  
-Content Calendar + AI Writer OS | Notion Template with Prompt Library for Creators
+**Title**
+```
+Content Calendar + AI Writer OS | Notion Template for Creators & Social Media
+```
 
 **Price**  
 $24
+
+**Tags**
+```
+notion template, content calendar, content planner, ai prompts, chatgpt, social media calendar, content creator, productivity, notion, digital product, ai writer, content strategy
+```
 
 **Description**
 
@@ -66,11 +80,18 @@ Instant delivery via Notion duplicate link.
 
 ## 3. Sales Pipeline + Auto Follow-up OS
 
-**Title**  
-Sales Pipeline + Auto Follow-up OS | Notion CRM for Freelancers & Consultants
+**Title**
+```
+Sales Pipeline + Auto Follow-up OS | Notion CRM Template for Freelancers
+```
 
 **Price**  
 $24
+
+**Tags**
+```
+notion template, sales pipeline, sales crm, follow up system, freelance crm, deal tracker, productivity, notion, digital product, sales tools, pipeline, client management
+```
 
 **Description**
 
@@ -93,11 +114,18 @@ Instant delivery via Notion duplicate link.
 
 ## 4. Full Bundle (Best Seller)
 
-**Title**  
-Full Creator + Freelancer OS Bundle | 3 Notion Templates + 5 AI Prompt Packs
+**Title**
+```
+Creator + Freelancer OS Bundle | 3 Notion Templates + 7 AI Prompt Packs
+```
 
 **Price**  
 $59 (launch) → later $79
+
+**Tags**
+```
+notion template, freelance, content calendar, sales pipeline, ai prompts, chatgpt, productivity, digital product, creator tools, bundle, notion, freelancer system
+```
 
 **Description**
 
@@ -107,8 +135,9 @@ Everything you need to run your freelance or creator business in one system — 
 - Freelance Project OS
 - Content Calendar + AI Writer OS
 - Sales Pipeline + Auto Follow-up OS
-- 5 AI Prompt Packs (Freelancer, Content Creator, Sales, Real Estate, Digital Marketer)
+- 7 AI Prompt Packs (Freelancer, Content Creator, Sales, Real Estate, Digital Marketer, Lawyer, Doctor)
 - Custom GPT system prompts for each pack
+- Automation recipes (Make.com / n8n / Zapier)
 
 Single templates would cost $70+. Bundle price: $59.
 
@@ -116,5 +145,4 @@ Instant access to all Notion links + GitHub prompt packs.
 
 ---
 
-## Tags (use these)
-notion template, freelance, content calendar, sales pipeline, ai prompts, chatgpt, productivity, crm, creator tools, digital products
+**Ready for direct copy-paste into Gumroad.**
