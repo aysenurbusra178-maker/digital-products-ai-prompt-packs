@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,7 +23,31 @@
       line-height: 1.6;
     }
     .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem; }
-    header { text-align: center; padding: 3rem 0 2rem; }
+    .lang-switch {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.25rem;
+      display: flex;
+      gap: 0.5rem;
+      z-index: 10;
+    }
+    .lang-btn {
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 0.35rem 0.7rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-btn.active, .lang-btn:hover {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    header { text-align: center; padding: 3.5rem 0 2rem; position: relative; }
     h1 { font-size: 2.25rem; font-weight: 700; margin-bottom: 0.75rem; letter-spacing: -0.02em; }
     .subtitle { color: var(--muted); font-size: 1.15rem; max-width: 560px; margin: 0 auto 1.5rem; }
     .badge {
@@ -75,48 +99,120 @@
     ul li { padding: 0.4rem 0; color: var(--muted); }
     ul li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
     footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 2rem 0; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--accent); }
+    [data-lang] { display: none; }
+    [data-lang].active { display: block; }
+    h1[data-lang].active, .badge[data-lang].active, .subtitle[data-lang].active { display: block; }
+    .card h3[data-lang], .card p[data-lang] { display: none; }
+    .card h3[data-lang].active, .card p[data-lang].active { display: block; }
+    li[data-lang] { display: none; }
+    li[data-lang].active { display: list-item; }
   </style>
 </head>
 <body>
+  <div class="lang-switch">
+    <button class="lang-btn active" data-set-lang="en" type="button">EN</button>
+    <button class="lang-btn" data-set-lang="tr" type="button">TR</button>
+  </div>
+
   <div class="container">
     <header>
-      <div class="badge">Production-ready · Instant delivery</div>
-      <h1>Creator + Freelancer OS Bundle</h1>
-      <p class="subtitle">3 Notion templates + 5 AI Prompt Packs. Run your business without the chaos.</p>
-      <a class="cta" href="https://gumroad.com" target="_blank" rel="noopener">Get the Full Bundle – $59</a>
+      <div class="badge active" data-lang="en">Production-ready · Instant delivery</div>
+      <div class="badge" data-lang="tr">Hazır sistem · Anında teslimat</div>
+
+      <h1 class="active" data-lang="en">Creator + Freelancer OS Bundle</h1>
+      <h1 data-lang="tr">Creator + Freelancer OS Bundle</h1>
+
+      <p class="subtitle active" data-lang="en">3 Notion templates + 5 AI Prompt Packs. Run your business without the chaos.</p>
+      <p class="subtitle" data-lang="tr">3 Notion şablonu + 5 AI Prompt Paketi. İşletmeni kaos olmadan yönet.</p>
+
+      <a class="cta active" data-lang="en" href="https://gumroad.com" target="_blank" rel="noopener">Get the Full Bundle – $59</a>
+      <a class="cta" data-lang="tr" href="https://gumroad.com" target="_blank" rel="noopener">Tam Bundle’ı Al – $59</a>
     </header>
 
     <div class="grid">
       <div class="card">
-        <h3>Freelance Project OS</h3>
-        <p>Client CRM, projects, tasks, invoices and cash flow in one place.</p>
+        <h3 class="active" data-lang="en">Freelance Project OS</h3>
+        <h3 data-lang="tr">Freelance Project OS</h3>
+        <p class="active" data-lang="en">Client CRM, projects, tasks, invoices and cash flow in one place.</p>
+        <p data-lang="tr">Müşteri CRM, projeler, görevler, faturalar ve nakit akışı tek yerde.</p>
       </div>
       <div class="card">
-        <h3>Content Calendar + AI Writer</h3>
-        <p>Multi-platform calendar + ready AI prompts for hooks, captions and scripts.</p>
+        <h3 class="active" data-lang="en">Content Calendar + AI Writer</h3>
+        <h3 data-lang="tr">Content Calendar + AI Writer</h3>
+        <p class="active" data-lang="en">Multi-platform calendar + ready AI prompts for hooks, captions and scripts.</p>
+        <p data-lang="tr">Çok platformlu takvim + hook, caption ve script için hazır AI prompt’lar.</p>
       </div>
       <div class="card">
-        <h3>Sales Pipeline + Follow-up</h3>
-        <p>Kanban pipeline and never-miss follow-up tasks so deals don’t fall through.</p>
+        <h3 class="active" data-lang="en">Sales Pipeline + Follow-up</h3>
+        <h3 data-lang="tr">Sales Pipeline + Follow-up</h3>
+        <p class="active" data-lang="en">Kanban pipeline and never-miss follow-up tasks so deals don’t fall through.</p>
+        <p data-lang="tr">Kanban pipeline ve asla kaçmayan follow-up görevleri – fırsatlar düşmesin.</p>
       </div>
     </div>
 
     <div class="price-box">
-      <div class="price">$59 <span>/ one-time</span></div>
+      <div class="price">$59 <span class="active" data-lang="en">/ one-time</span><span data-lang="tr">/ tek seferlik</span></div>
       <ul>
-        <li>3 production Notion templates</li>
-        <li>5 AI Prompt Packs + Custom GPT prompts</li>
-        <li>Instant Notion duplicate links</li>
-        <li>Commercial use rights</li>
-        <li>Lifetime access</li>
+        <li class="active" data-lang="en">3 production Notion templates</li>
+        <li data-lang="tr">3 production Notion şablonu</li>
+        <li class="active" data-lang="en">5 AI Prompt Packs + Custom GPT prompts</li>
+        <li data-lang="tr">5 AI Prompt Pack + Custom GPT prompt’ları</li>
+        <li class="active" data-lang="en">Instant Notion duplicate links</li>
+        <li data-lang="tr">Anında Notion duplicate linkleri</li>
+        <li class="active" data-lang="en">Commercial use rights</li>
+        <li data-lang="tr">Ticari kullanım hakkı</li>
+        <li class="active" data-lang="en">Lifetime access</li>
+        <li data-lang="tr">Ömür boyu erişim</li>
       </ul>
-      <a class="cta" href="https://gumroad.com" target="_blank" rel="noopener">Buy Full Bundle</a>
+      <a class="cta active" data-lang="en" href="https://gumroad.com" target="_blank" rel="noopener">Buy Full Bundle</a>
+      <a class="cta" data-lang="tr" href="https://gumroad.com" target="_blank" rel="noopener">Tam Bundle’ı Satın Al</a>
     </div>
 
     <footer>
-      Built as production-grade digital products · Ready for Gumroad & Etsy<br />
-      <a href="https://github.com/aysenurbusra178-maker/digital-products-ai-prompt-packs" style="color:var(--accent)">View on GitHub</a>
+      <span class="active" data-lang="en">Built as production-grade digital products · Ready for Gumroad & Etsy</span>
+      <span data-lang="tr">Production-grade dijital ürünler · Gumroad & Etsy için hazır</span><br />
+      <a href="https://github.com/aysenurbusra178-maker/digital-products-ai-prompt-packs">View on GitHub</a>
     </footer>
   </div>
+
+  <script>
+    (function () {
+      const buttons = document.querySelectorAll('[data-set-lang]');
+      const elements = document.querySelectorAll('[data-lang]');
+
+      function setLanguage(lang) {
+        elements.forEach(el => {
+          if (el.getAttribute('data-lang') === lang) {
+            el.classList.add('active');
+          } else {
+            el.classList.remove('active');
+          }
+        });
+        buttons.forEach(btn => {
+          if (btn.getAttribute('data-set-lang') === lang) {
+            btn.classList.add('active');
+          } else {
+            btn.classList.remove('active');
+          }
+        });
+        document.documentElement.lang = lang;
+        try { localStorage.setItem('preferred-lang', lang); } catch (e) {}
+      }
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => setLanguage(btn.getAttribute('data-set-lang')));
+      });
+
+      // Default: English (code language). Detect browser or saved preference.
+      let initial = 'en';
+      try {
+        const saved = localStorage.getItem('preferred-lang');
+        if (saved === 'tr' || saved === 'en') initial = saved;
+        else if (navigator.language && navigator.language.startsWith('tr')) initial = 'tr';
+      } catch (e) {}
+      setLanguage(initial);
+    })();
+  </script>
 </body>
 </html>
