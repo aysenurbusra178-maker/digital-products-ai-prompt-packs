@@ -2,9 +2,12 @@
 
 **Production-ready hybrid digital products** for sale on Gumroad, Etsy and your own landing page.
 
-Built for freelancers, content creators, sales people, real-estate agents and digital marketers.
+**Code & documentation language:** English  
+**Public-facing UI:** English + Turkish (language switcher on landing page)
 
-> **Full professional plan & checklist:** see [`PRODUCT_AND_SALES_PLAYBOOK.md`](./PRODUCT_AND_SALES_PLAYBOOK.md)
+> **Full professional plan:** [`PRODUCT_AND_SALES_PLAYBOOK.md`](./PRODUCT_AND_SALES_PLAYBOOK.md)  
+> **Ready-to-copy Gumroad texts:** [`GUMROAD_LISTINGS.md`](./GUMROAD_LISTINGS.md)  
+> **Bilingual landing page:** [`landing/index.html`](./landing/index.html)
 
 ## Notion Templates (ready to duplicate & sell)
 
@@ -19,38 +22,32 @@ Built for freelancers, content creators, sales people, real-estate agents and di
 
 ```
 /packs
-  /freelancer-project-manager   ← discovery, proposal, scope-creep, invoices, case studies
-  /content-creator-ai-writer    ← hooks, captions, scripts, 30-day ideas, repurposing, SEO
-  /sales-pipeline-followup      ← qualification, proposals, follow-up sequences, objections, closing
-  /real-estate-agent            ← listing descriptions, client scripts, market analysis, objections
-  /digital-marketer             ← ad copy, funnel, SEO briefs, campaign briefs, A/B tests
+  /freelancer-project-manager
+  /content-creator-ai-writer
+  /sales-pipeline-followup
+  /real-estate-agent
+  /digital-marketer
 ```
 
-Each pack includes:
-- Core tested prompts
-- Custom GPT system prompt
-- Usage guide (Markdown → PDF ready)
+Each pack includes core tested prompts + Custom GPT system prompt.
 
-## Pricing Strategy (2026 validated)
+## Pricing Strategy (2026)
 
-| Product | Price | Notes |
-|---------|-------|-------|
-| Single Notion template | $19–$29 | Professional tier |
-| Single prompt pack | $15–$27 | Entry point |
-| 3-template + packs Bundle | $59–$79 | Highest AOV |
-| Custom GPT Setup (upsell) | $97–$197 | High-ticket |
+| Product | Price |
+|---------|-------|
+| Single Notion template | $19–$29 |
+| Single prompt pack | $15–$27 |
+| Full Bundle | $59–$79 |
+| Custom GPT Setup (upsell) | $97–$197 |
 
 ## How to Sell
-1. Notion: Share → Publish to web → Allow duplicate as template → use the link as delivery.
-2. Prompt packs: Export Markdown to PDF or give GitHub download / private release.
-3. Gumroad / Etsy product page with cover screenshots + high-converting copy.
-4. Cross-sell via Gumroad buyer emails + bundle offers.
-
-## Turkish Guide PDF
-Comprehensive Turkish PDF explaining what each system does and how to sell it is available in the conversation artifacts.
+1. Notion → Share → Publish to web → Allow duplicate as template.
+2. Copy listing texts from `GUMROAD_LISTINGS.md`.
+3. Deploy `landing/index.html` to Vercel (EN/TR switcher included).
+4. Drive traffic via Pinterest, Reddit, X, LinkedIn.
 
 ## License
-Original prompts and templates. Buyers receive commercial use rights for their own business.
+Original content. Buyers receive commercial use rights.
 
 ---
-Created as production-grade assets. Ready for first sales.
+Production-grade assets. Ready for first sales.
