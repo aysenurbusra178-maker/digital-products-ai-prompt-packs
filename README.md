@@ -4,6 +4,8 @@
 
 Built for freelancers, content creators, sales people, real-estate agents and digital marketers.
 
+> **Full professional plan & checklist:** see [`PRODUCT_AND_SALES_PLAYBOOK.md`](./PRODUCT_AND_SALES_PLAYBOOK.md)
+
 ## Notion Templates (ready to duplicate & sell)
 
 | Template | Link | Recommended Price |
@@ -20,12 +22,12 @@ Built for freelancers, content creators, sales people, real-estate agents and di
   /freelancer-project-manager   ← discovery, proposal, scope-creep, invoices, case studies
   /content-creator-ai-writer    ← hooks, captions, scripts, 30-day ideas, repurposing, SEO
   /sales-pipeline-followup      ← qualification, proposals, follow-up sequences, objections, closing
-  /real-estate-agent            ← (coming – listing descriptions, client scripts, market analysis)
-  /digital-marketer             ← (coming – ad copy, funnel, SEO, campaign briefs)
+  /real-estate-agent            ← listing descriptions, client scripts, market analysis, objections
+  /digital-marketer             ← ad copy, funnel, SEO briefs, campaign briefs, A/B tests
 ```
 
 Each pack includes:
-- Core tested prompts (expandable to 40–80)
+- Core tested prompts
 - Custom GPT system prompt
 - Usage guide (Markdown → PDF ready)
 
@@ -41,14 +43,14 @@ Each pack includes:
 ## How to Sell
 1. Notion: Share → Publish to web → Allow duplicate as template → use the link as delivery.
 2. Prompt packs: Export Markdown to PDF or give GitHub download / private release.
-3. Gumroad / Etsy product page with cover screenshots + the high-converting copy provided.
+3. Gumroad / Etsy product page with cover screenshots + high-converting copy.
 4. Cross-sell via Gumroad buyer emails + bundle offers.
 
 ## Turkish Guide PDF
-See the comprehensive Turkish PDF that explains what each system does and how to sell it (generated in the conversation artifacts).
+Comprehensive Turkish PDF explaining what each system does and how to sell it is available in the conversation artifacts.
 
 ## License
 Original prompts and templates. Buyers receive commercial use rights for their own business.
 
 ---
-Created as production-grade assets. Ready for first sales in 1–2 days.
+Created as production-grade assets. Ready for first sales.
