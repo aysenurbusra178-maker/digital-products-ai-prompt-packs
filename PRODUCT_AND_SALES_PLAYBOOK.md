@@ -41,12 +41,15 @@ Zero paid ads required at the beginning. Organic (Pinterest + Reddit + X + Linke
 | Real Estate Agent | `/packs/real-estate-agent` | Complete |
 | Digital Marketer | `/packs/digital-marketer` | Complete |
 
-Each pack contains:
-- Core production prompts
-- Custom GPT system prompt
-- Ready for PDF export or direct delivery
+### C. Sales Assets (this repository)
 
-### C. High-Ticket Upsell
+| Asset | Path |
+|-------|------|
+| Ready-to-copy Gumroad listings | [`GUMROAD_LISTINGS.md`](./GUMROAD_LISTINGS.md) |
+| Landing page (HTML) | [`landing/index.html`](./landing/index.html) |
+| This Playbook | [`PRODUCT_AND_SALES_PLAYBOOK.md`](./PRODUCT_AND_SALES_PLAYBOOK.md) |
+
+### D. High-Ticket Upsell
 - Personalized Custom GPT setup + 1:1 configuration → $97–$197
 
 ---
@@ -80,12 +83,10 @@ Never start too high. Launch at the lower end, then increase.
 
 ## 5. Gumroad Listing Structure (High Conversion)
 
+See full ready-to-copy texts in [`GUMROAD_LISTINGS.md`](./GUMROAD_LISTINGS.md).
+
 **Title formula**  
 `[Specific Audience] + [Product Type] + [Key Outcome]`
-
-Examples:
-- Freelance Project OS | Notion Template – Client CRM + Projects + Invoices
-- Content Calendar + AI Writer OS | Notion Template with Prompt Library
 
 **Description structure**
 1. Hook (pain in 1–2 sentences)
@@ -93,11 +94,10 @@ Examples:
 3. What’s included (granular bullet list)
 4. Who it’s for
 5. How to use (2–3 simple steps)
-6. Soft social proof / guarantee
 
 **Visuals**
 - Cover: 1280×720, real Notion screenshot + benefit headline
-- 4–6 preview images (different views)
+- 4–6 preview images
 - Optional: 2–4 min walkthrough video
 
 ---
@@ -106,7 +106,7 @@ Examples:
 
 ### Week 1 – Foundation
 - Day 1–2: Publish all products on Gumroad (single + bundle)
-- Day 3: Create cover images (use provided prompts)
+- Day 3: Create cover images (use previously provided prompts)
 - Day 4–5: Pinterest – 5 vertical pins per product (SEO titles)
 - Day 6–7: Reddit value posts (r/Notion, r/freelance, r/SideProject, r/content_marketing)
 
@@ -119,9 +119,8 @@ Examples:
 ### Week 3–4 – Optimize & Scale
 - Raise prices after 10+ sales
 - Launch Product Hunt (free)
-- Expand real-estate & digital-marketer packs with more prompts
-- Add second language or niche variations if traction appears
-- Start simple YouTube Shorts / Loom demos
+- Deploy landing page to Vercel (`landing/` folder)
+- Record short Loom walkthroughs
 
 ---
 
@@ -129,39 +128,41 @@ Examples:
 
 - [x] All Notion templates have clear instructions + sample data
 - [x] Relations pre-configured
-- [x] Prompt packs have system prompts for Custom GPTs
+- [x] All 5 prompt packs complete with system prompts
 - [x] Pricing validated against 2026 market data
-- [x] High-converting listing copy ready
+- [x] High-converting listing copy ready (`GUMROAD_LISTINGS.md`)
 - [x] Cover image prompts prepared
 - [x] Turkish comprehensive guide PDF created
-- [x] Full catalog documented in this playbook
+- [x] Full catalog + Playbook documented
+- [x] Professional landing page HTML ready for Vercel
 - [ ] First Gumroad products published (user action)
 - [ ] First 5 Pinterest pins live (user action)
 - [ ] First Reddit post published (user action)
+- [ ] Landing page deployed to Vercel (optional)
 
 ---
 
-## 8. Next Development Priorities (when ready)
+## 8. Next Development Priorities
 
 1. Expand each prompt pack to 40–60 prompts
-2. Create “Lawyer / Legal” and “Doctor / Clinic” packs
-3. Build a simple Next.js landing page (Vercel) for the bundle
-4. Add automation recipes (Make.com / n8n) as bonus content
-5. Record short Loom walkthroughs for each template
+2. Create Lawyer / Doctor packs
+3. Deploy landing page to Vercel + connect real Gumroad links
+4. Add Make.com / n8n automation recipes as bonus
+5. Record Loom demos for each template
 
 ---
 
-## 9. Quick Start Commands for You
+## 9. Quick Start for You (Right Now)
 
-1. Open the three Notion links above → enable “Allow duplicate as template”
-2. Go to gumroad.com → create products using the copy in previous messages
-3. Use the cover prompts to generate images
-4. Follow the 7-day / 30-day traffic plan
-5. After first sales → reply here for optimization or new packs
+1. Open the three Notion links → enable “Allow duplicate as template”
+2. Open [`GUMROAD_LISTINGS.md`](./GUMROAD_LISTINGS.md) → copy titles & descriptions into Gumroad
+3. Generate covers with the prompts given earlier
+4. Publish single products + the $59 Bundle
+5. Start the 7-day traffic plan (Pinterest + Reddit + X)
 
 ---
 
 **This playbook is the single source of truth.**  
 Everything is production-grade and ready for first revenue.
 
-Questions or next task → just say the word.
+Repo: https://github.com/aysenurbusra178-maker/digital-products-ai-prompt-packs
